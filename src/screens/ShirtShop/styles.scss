@@ -4,6 +4,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
+        margin-top: 20px;
 
         img {
             height: 400px;
@@ -52,6 +53,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
 
         h1 {
             color: var(--darkblue);

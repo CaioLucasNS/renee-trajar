@@ -61,7 +61,7 @@ export function Depositions() {
   };
 
   return (
-    <div className="container">
+    <div className="container-depositions">
       <h1>Depoimentos</h1>
 
       <div className="content">
