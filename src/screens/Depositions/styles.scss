@@ -1,0 +1,67 @@
+html {
+  .carousel-caption {
+    position: relative;
+  }
+}
+
+.container {
+  display: flex;
+  background: var(--darkblue);
+  background-image: url("../../utils//assets/depositions/background-depositions-mobile.png");
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: Cormorant, sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    color: var(--white);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .carousel-item {
+      margin-top: 20px;
+
+      .image {
+        width: 200px !important;
+        border-radius: 50%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .content-text {
+        margin-top: 20px;
+        margin-right: 30%;
+        margin-left: auto;
+
+        h1 {
+          font-family: Cormorant, sans-serif;
+          color: var(--golden);
+        }
+
+        h2 {
+          font-family: Lato, sans-serif;
+          font-weight: 300;
+        }
+
+        p {
+          width: 100%;
+          text-align: center;
+          line-height: 1.6em;
+
+          font-family: Cormorant, sans-serif;
+          font-size: 1.4em;
+          font-weight: 300;
+          font-style: italic;
+          color: var(--white);
+        }
+      }
+    }
+  }
+}

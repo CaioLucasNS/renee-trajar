@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 
+// mock - imagens autores de depoimentos
 import depoimento1 from '../../utils/assets/depositions/depoimento1.png';
 import depoimento2 from '../../utils/assets/depositions/depoimento2.png';
 import depoimento3 from '../../utils/assets/depositions/depoimento3.png';
 import depoimento4 from '../../utils/assets/depositions/depoimento4.png';
 import depoimento5 from '../../utils/assets/depositions/depoimento5.png';
+
+import './styles.scss';
 
 const depositions = [
   {
@@ -48,7 +51,7 @@ const depositions = [
     empresa: 'Conselho Superior de Responsabilidade Social da FIESP-SP',
     text: 'Conheço o excelente e qualificado trabalho do Renee Trajar e sua equipe há décadas. Para camisas e ternos, o Renee é imbatível, sempre com preços justos, produtos de excelente qualidade e especialmente tudo é feito com muito cuidado e qualidade. Cumpre os prazos com atendimento de alto nível. O Renee trabalha com perfeição nos detalhes.',
   },
-]
+];
 
 export function Depositions() {
   const [index, setIndex] = useState(0);
@@ -58,28 +61,37 @@ export function Depositions() {
   };
 
   return (
-    <div>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
-        {
-          depositions.map(deposition => (
-            <Carousel.Item key={deposition.id}>
+    <div className="container">
+      <h1>Depoimentos</h1>
 
-              <img
-                className="d-block w-100"
-                src={deposition.image}
-                alt={`image ${deposition.name}`}
-              />
-              <Carousel.Caption>
-                <div>
-                  <h3>{deposition.name} | {deposition.company}</h3>
-                  <p>{deposition.text}</p>
-                </div>
-              </Carousel.Caption>
+      <div className="content">
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          {
+            depositions.map(deposition => (
+              <Carousel.Item key={deposition.id} interval={10000}>
 
-            </Carousel.Item>
-          ))
-        }
-      </Carousel>
+                <img
+                  className="d-block w-100 image"
+                  src={deposition.image}
+                  alt={`image ${deposition.name}`}
+                />
+                <Carousel.Caption>
+                  <div className="content-text">
+                    <p>{deposition.text}</p>
+                    <h1>{deposition.name}</h1> 
+                    <h2>
+                      {deposition.occupation}
+                      {!!deposition.occupation && !!deposition.company && ` | `}
+                      {deposition.company}
+                    </h2>
+                  </div>
+                </Carousel.Caption>
+
+              </Carousel.Item>
+            ))
+          }
+        </Carousel>
+      </div>
     </div>
   );
 }
