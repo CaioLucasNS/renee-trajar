@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5bd90a91.css",
+    "main.js": "/static/js/main.2260f2bf.js",
+    "static/js/787.f625ef0d.chunk.js": "/static/js/787.f625ef0d.chunk.js",
+    "static/media/background-home-desktop.png": "/static/media/background-home-desktop.c23c66bdc16022d51846.png",
+    "static/media/alfaiataria.png": "/static/media/alfaiataria.35fb975914784943a6d7.png",
+    "static/media/background-depositions-mobile.png": "/static/media/background-depositions-mobile.efaa2b6ed10b487b12eb.png",
+    "static/media/camisaria.png": "/static/media/camisaria.3571e2f588de83cde0f9.png",
+    "static/media/background-home-mobile.png": "/static/media/background-home-mobile.7fbeb4d9d6f981ab6eee.png",
+    "static/media/logo-dark.svg": "/static/media/logo-dark.e34c7d4a25743cf7d80f4eb482ba6fc5.svg",
+    "static/media/logo.svg": "/static/media/logo.1f36db269e10ba3c9dd5b578931ed076.svg",
+    "static/media/depoimento4.png": "/static/media/depoimento4.697c9d13247b801cc74c.png",
+    "static/media/depoimento1.png": "/static/media/depoimento1.504e0423acab1556f294.png",
+    "static/media/depoimento5.png": "/static/media/depoimento5.16113e5f32cdadef2abf.png",
+    "static/media/depoimento2.png": "/static/media/depoimento2.e4bc6d9b0e2552471c84.png",
+    "static/media/depoimento3.png": "/static/media/depoimento3.a0cdd72214533138fd50.png",
+    "index.html": "/index.html",
+    "main.5bd90a91.css.map": "/static/css/main.5bd90a91.css.map",
+    "main.2260f2bf.js.map": "/static/js/main.2260f2bf.js.map",
+    "787.f625ef0d.chunk.js.map": "/static/js/787.f625ef0d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bd90a91.css",
+    "static/js/main.2260f2bf.js"
+  ]
+}
