@@ -3,5 +3,5 @@ import React from 'react';
 // import { Container } from './styles';
 
 export function Home() {
-  return <h1>H1 aqui</h1>;
+  return <h1>Home | Início</h1>;
 }
