@@ -15,9 +15,13 @@
 }
 
 // desktop
-@media (max-width: 1080px) {
+@media (min-width: 990px) {
     html {
         font-size: 93.75%; //15
+    }
+
+    button {
+        width: 18vw;
     }
 }
 
@@ -77,5 +81,6 @@ ul, li {
 
     button {
         transition: filter 0.2s;
+
     }
 }

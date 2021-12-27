@@ -24,7 +24,6 @@
             };
             h2 {
                 font-family:  Playfair Display, sans-serif;
-                // font-weight: bold;
                 font-style: italic;
                 color: var(--golden);
     
@@ -134,6 +133,12 @@
             padding: 10px 0 10px 0;
             color: var(--white);
     
+            img {
+                width: 16%;
+                height: 16%;
+                align-self: flex-end
+            }
+            
             div {
                 display: flex;
             }
