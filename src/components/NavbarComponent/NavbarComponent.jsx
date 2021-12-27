@@ -41,7 +41,6 @@ export function NavbarComponent() {
   return (
     <Router>
       {/* navbar */}
-      <div className="container">
         <Navbar bg="none" expand="lg" expanded={expanded} variant={"light"} className="container">
           <Container className="nav-container">
             <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={hideNav} className="buttonNav" />
@@ -91,7 +90,6 @@ export function NavbarComponent() {
 
           </Container>
         </Navbar>
-      </div>
 
       {/* navigation */}
       <div>
