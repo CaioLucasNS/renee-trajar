@@ -17,14 +17,18 @@ export function ShirtShop() {
           <p>CONFECCIONADAS ARTESANALMENTE</p>
         </div>
 
-        <div className="list">
-          <ul>
-            <li>100% Algodão</li>
-            <li>Monograma</li>
-            <li>Slim</li>
-            <li>Nacionais e Importadas</li>
-            <li>Tradicionais e Esportivas</li>
-            <li>Casamentos</li>
+        <div>
+          <ul className="list">
+            <div>
+              <li>100% Algodão</li>
+              <li>Monograma</li>
+              <li>Slim</li>
+            </div>
+            <div>
+              <li>Nacionais e Importadas</li>
+              <li>Tradicionais e Esportivas</li>
+              <li>Casamentos</li>
+            </div>
           </ul>
         </div>
 

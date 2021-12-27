@@ -35,7 +35,14 @@
                 padding: 8px
             }
         }
-    
+        
+        .list {
+            display: flex;
+
+            div:first-child {
+                margin-right: 30px;
+            }
+        }
     }
 }
 
@@ -45,6 +52,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        h1 {
+            color: var(--darkblue);
+        }
     
         p {
             font-family: Lato, sans-serif;
@@ -52,12 +63,14 @@
         }
     
         ul {
-            font-size: 1.8rem
+            font-size: 1.8rem;
+            color: var(--gray);
         }
     
         button {
             font-weight: 300;
-            padding: 8px
+            padding: 8px;
+            width: 100%;
         }
     }
 }
