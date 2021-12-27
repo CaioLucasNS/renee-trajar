@@ -12,6 +12,7 @@ import {
 } from "react-router-dom";
 
 import Logo from '../../utils/assets/logo.svg';
+import LogoDark from '../../utils/assets/logo-dark.svg';
 import { Home } from '../../screens/Home/Home';
 import { Company } from '../../screens/Company/Company';
 import { ShirtShop } from '../../screens/ShirtShop/ShirtShop';
@@ -49,7 +50,7 @@ export function NavbarComponent() {
               <Nav className="me-auto">
                 <Nav.Link as={Link} to={"/"} onClick={hideNav}>
                   {/* <h1>INÍCIO</h1> */}
-                  <img src={Logo} alt="Logo" style={{width: '80px'}} />
+                  <img src={ windowDimensions.width < 991 ? Logo : LogoDark } alt="Logo" style={{width: '80px'}} />
                 </Nav.Link>
                 <Nav.Link as={Link} to={"/company"} onClick={hideNav}>
                   <h1>EMPRESA</h1>
